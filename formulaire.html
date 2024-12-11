@@ -9,12 +9,12 @@
 
 <body>
   <h1>Formulaire</h1>
-  <form action="traitemant.php=" post">
+  <form action="traitemant.php=">
     <label for="Prénome">Prénome :</label>
     <input type="text" id="Prénome" name="Prénome" placeholder="Entrez votre Prénome"><br>
 
     <label for="nom">Nom :</label>
-    <input type="text" id="Nom" name="Nom" placeholder="Entrez votre Nom"><br>
+    <input type="text" id="nom" name="nom" placeholder="Entrez votre Nom"><br>
 
     <label for="age">Age :</label>
     <input type="number" id="age" name="Age" min="0"><br>
@@ -26,7 +26,7 @@
     <input type="email" id="email" name="email" placeholder="Entrez votre Mail"><br>
 
     <label for="date">Date de naussance</label>
-    <input type="date"><br>
+    <input type="text" id="date" name="date"><br>
 
     <label for="adresse">Adresse postal :</label>
     <input type="text" id="adresse" name="adresse"><br>
@@ -48,23 +48,23 @@
     </select><br>
 
     <label for="pays">Pays de naissance :</label>
-    <input type="pays" id="pays" name="pays"><br>
+    <input type="text" id="pays" name="pays"><br>
 
-    <label for="numero de sécrurité social">Numero de sécrurité social :</label>
-    <input type="number" id="numero de sécrurité social" name="numero de sécrurité social"><br>
+    <label for="securite_sociale">Numero de sécrurité social :</label>
+    <input type="text" id="securite_sociale" name="securite_sociale"><br>
 
-    <label for="numero de passeport">Numéro de passeport :</label>
-    <input type="text" id="numero de passeport" name="numero de passeport"><br>
+    <label for="passeport">Numéro de passeport :</label>
+    <input type="text" id="passeport" name="passeport"><br>
 
-    <label for="numero de délivrance du passeport">Numero de délivrance du passeport :</label>
-    <input type="text" id="numero de délivrance du passeport" name="numero de délivrance du passeport"><br>
+    <label for="numero">Numero de délivrance du passeport :</label>
+    <input type="text" id="numero" name="numero"><br>
 
-    <label for="date de délivrance">Date de délivrance :</label>
-    <input type="datetime" id="date de délivrance" name="date de délivrance"><br>
+    <label for="delivrance_passeport">Date de délivrance :</label>
+    <input type="text" id="delivrance_passeport" name="delivrance_passeport"><br>
 
-    <label for="Sexe">Sexe :</label>
-    <label for="Sexe">Home</label>
-    <input type="radio" id="home" name="Sexe" value="home">
+    <label for="sexe">Sexe :</label>
+    <label for="monsieur">Home</label>
+    <input type="radio" id="monsieur" name="sexe" value="monsieur">
 
     <label for="femme">Femme</label>
     <input type="radio" id="femme" name="Sexe" value="femme">
@@ -73,9 +73,6 @@
     <input type="radio" id="autre" name="Sexe" value="autre"><br><br>
 
     <input type="submit" value="Envoyer"><br>
-
-
-
 
   </form>
 
